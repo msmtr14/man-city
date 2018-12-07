@@ -1,0 +1,146 @@
+
+/*=============================
+         ADMIN
+===============================*/
+
+.admin{
+
+    &_container{
+        margin-top: 96px;
+        display:flex;
+
+        & .admin{
+            &_left_nav {
+                min-height: 100vh;
+                background: $color_20;
+                border-right: 2px solid $color_12;
+            }
+            
+            &_right {
+                flex-grow: 1;
+            }
+            &_progress {
+                text-align: center;
+                margin: 20px 0px;
+            }
+        }
+        
+        & .matches_tag{
+            &_red {
+                font-weight: 700;
+                color: $color_5;
+            }
+            
+            &_green {
+                font-weight: 700;
+                color: $color_21;
+            }
+        }
+        
+        & h2 {
+            margin: 0px 0px 50px 0px;
+            border-bottom: 1px solid $color_22;
+            color: $color_23;
+            font-size: 40px;
+        }
+    }
+
+    &_submit button {
+        font-size: 20px;
+        margin: 40px 0px;
+        background: $color_24;
+    }
+}
+
+
+.editmatch_dialog_wrapper,
+.editplayers_dialog_wrapper {
+    padding: 20px;
+    width: 480px;
+}
+
+.select_team_layout{
+        
+    & .wrapper{
+        display: flex;
+        
+        & .left {
+            flex-grow: 1;
+        }
+    }
+
+    & input[name=result_local_input],
+    & input[name=result_away_input] {
+        width: 60px;
+        text-align: center;
+        background: $color_1;
+        color: $color_white;
+    }
+} 
+
+/*=============================
+         THE TEAM
+===============================*/
+
+.the_team_container {
+    margin-top: 96px;
+    padding: 20px;
+    background-size: 5px 5px !important;
+    min-height:100vh;
+}
+
+.team_category_wrapper{
+    
+    & .title {
+        font-size: 90px;
+        margin: 30px 0px;
+        font-family: $font_1;
+        color: $color_9;
+    }
+
+    & .team_cards {
+        display: flex;
+        flex-wrap: wrap;
+    
+        & .item{
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+/*=============================
+            SIGN IN
+===============================*/
+
+.signin_wrapper {
+    margin-top: 96px;
+    padding: 20px;
+    min-height: 70VH;
+    text-align: center;
+
+    & form {
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    & form button {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    & h2 {
+        font-family: $font_1;
+        color: $color_1;
+        font-size: 50px;
+    }
+}
+
+.user_dashboard {
+    font-size: 60px;
+    font-family: $font_1;
+    color: $color_9;
+    text-align: center;
+    margin-top: 200px;
+}

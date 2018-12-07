@@ -1,0 +1,62 @@
+
+/*=============================
+            FEATURED
+===============================*/
+.featured{
+    &_wrapper{
+        margin: 0 auto;
+        width: 1280px;
+        margin-top: 90px;
+        height: 800px;
+        overflow: hidden;
+    }
+
+    &_stripes {
+        position: relative;
+
+        & .stripe {
+            width: 230px;
+            height: 1200px;
+            position: absolute;
+        }
+    }
+
+    &_text {
+        position: relative;
+        font-family: $font_1;
+    }
+
+    &_number {
+        font-size: 270px;
+        color: $color_white;
+        transform: translate(260px,170px);
+        position: absolute;
+    }
+
+    &_player {
+        width: 500px;
+        height: 500px;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        position: absolute;
+    }
+
+    &_first {
+        position: absolute;
+        background: $color_10;
+        color: $color_white;
+        font-size: 92px;
+        text-transform: uppercase;
+        padding: 0px 20px;
+    }
+    
+    &_second {
+        position: absolute;
+        background: $color_10;
+        color: $color_white;
+        font-size: 92px;
+        text-transform: uppercase;
+        padding: 0px 20px;
+    }
+}
+

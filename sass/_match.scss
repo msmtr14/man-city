@@ -1,0 +1,294 @@
+
+/*=============================
+            MATCHES HOME
+===============================*/
+
+.home{
+    &_matches{
+        &_wrapper{
+            background: $color_1;
+            margin-top:9px;
+            padding: 50px 0px;
+
+            & .home_matches {
+                flex-wrap: wrap;
+                display: flex;
+                margin-top: 60px;
+
+                & .item {
+                    width: 50%;
+                    margin: 35px 0px;
+
+                    & .wrapper {
+                        padding-right:30px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+            MATCHES BLOCK
+===============================*/
+
+.match{
+    &_block{
+
+        & .match_date{
+            color:$color_white;
+            font-size:18px;
+        }
+
+        & .match_wrapper{
+            & .match_top,
+            & .match_bottom{
+                display: flex;
+
+                & .left{
+                    background: $color_white; 
+                    font-family: $font_1;
+                    flex-grow: 1;
+                    margin-right: 5px;
+                    padding: 10px;
+
+                    & div{
+                        float:left;
+                    }
+
+                    & .icon{
+                        width: 50px;
+                        height: 50px;
+                        background-size: cover !important;
+                    }
+
+                    & .team_name{
+                        font-size: 30px;
+                        padding: 6px 10px;
+                    }
+                }
+
+                & .right{
+                    background: $color_10;
+                    width: 70px;
+                    color: $color_white;
+                    font-size: 50px;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+            }
+
+            & .match_bottom{
+                margin-top: 5px;  
+            }
+        }
+    }
+
+    &_box{
+        &_big {
+            width:100%;
+            border-bottom: 2px solid $color_25;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 143px;
+            clear: both;
+
+            & .block{
+                display: flex;
+
+                &_wraper {
+                    display: inline-block;
+                    margin-right: 50px;
+                    float: left;
+                }
+
+                & .team,
+                & .result{
+                    font-size: 21px;
+                    line-height: 51px;
+                    margin-left: 18px;
+                    font-weight: 300;
+                }
+
+                & .result{
+                    font-weight: 500;
+                }
+            }
+
+            & .icon{
+                width: 50px;
+                height: 50px;
+                background-size: cover !important;
+            }
+        }
+    }
+
+    &_filters{
+        display: flex;
+        border-bottom: 1px solid $color_12;
+        background: $color_13;
+
+        & .tag{
+            font-weight: 300;
+            margin-bottom: 5px;
+            color: $color_14;
+        }
+
+        & .option{
+            background: $color_white;
+            padding: 5px 9px;
+            border-radius: 3px;
+            font-size: 13px;
+            margin-right: 5px;
+            cursor: pointer;
+
+            &.active {
+                background: $color_15;
+                color: $color_16;
+            }
+        }
+
+        &_box {
+            padding: 10px 20px;
+            border-right: 1px solid $color_12;
+            background: $color_13;
+        }
+
+        & .cont {
+            display: flex;
+        }
+    }
+}
+
+.block_wraper.nfo{
+    border-left: 1px solid $color_25;
+    height: 102px;
+    padding-left: 10px;
+    font-weight: 300;
+    color: $color_11;
+
+    & div{
+        margin: 5px 0px;  
+    }
+}
+
+
+/*=============================
+            MATCHES BLOCK
+===============================*/
+
+.home_meetplayers { 
+    background: $color_white;
+
+        
+    &_wrapper {
+        padding-bottom: 100px;
+        min-height: 600px;
+    }
+
+    & .home_card_wrapper {
+        position: relative;
+        float: left;
+        width: 630px;
+        min-height: 600px;
+    }
+
+    & .home_text_wrapper {
+        float: right;
+        width: 390px;
+    }
+}
+
+
+/*=============================
+            MATCHES BLOCK
+===============================*/
+
+
+.player_card_wrapper {
+    background: $color_white;
+    border: 1px solid $color_26;;
+    width: 300px;
+    padding: 10px 10px 20px 10px;
+    font-family: $font_3;
+
+    & .player_card{
+        &_thmb {
+            border: 1px solid $color_17;
+            width:100%;
+            height:250px;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: contain !important;
+        }
+        
+        &_nfo {
+            position: relative;
+        }
+
+        &_number {
+            color: $color_27;
+            font-size: 185px;
+            text-align: right;
+            line-height: 160px;
+        }
+        
+        &_name {
+            position: absolute;
+            bottom: 0px;
+        
+            & span { 
+                display: block;
+                font-size: 25px;
+                color: $color_4;
+            }
+        }
+    }
+}
+
+.home_text_wrapper {
+    margin-top: 70px;
+}
+
+
+/*=============================
+         THE MATCHES
+===============================*/
+
+.the_matches{
+    &_container {
+        margin-top: 96px;
+    }
+    
+    
+    &_wrapper {
+        display: flex;
+        
+        & .left {
+            flex-grow: 1;
+        }
+         
+        & .right {
+            width: 400px;
+        }
+            
+        & .progress {
+            text-align: center;
+            padding: 60px 0px;
+        }
+    }
+}
+
+.league_table_wrapper {
+    border-left: 1px solid $color_25;
+
+    & .title {
+        padding: 22px;
+        font-size: 22px;
+        color: $color_white;
+        background: $color_25;
+        border-bottom: 1px solid $color_12;
+    }
+    
+}

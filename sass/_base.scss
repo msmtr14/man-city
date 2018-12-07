@@ -1,0 +1,50 @@
+// COLOR VARIABLES
+$color-primary: #999592; 
+$color-primary-dark: #272723; 
+$color_body: #404040;
+$color_white: #ffffff;
+
+$color_red: #FF0000;
+
+$color_1: #98c5e9 ;
+$color_2: #fafafa ;
+$color_3: #e9e9e9 ;
+$color_4: #0d1831 ;
+$color_5: #F44336 ;
+$color_6: #e5f4ff ;
+$color_7: #dddddd ;
+$color_8: #cecece ;
+$color_9: #d5ebfe ;
+$color_10: #0e1731 ;
+
+$color_11:#5e5e5e ;
+$color_12:#01285e ;
+$color_13:#dff1ff ;
+$color_14:#656565 ;
+$color_15:#62a2d3 ;
+$color_16:#fff;
+$color_17:#eeeeee ;
+$color_18:#d5ebfd ;
+$color_19:#4e4e4e ;
+$color_20:#282828 ;
+
+$color_21:#4CAF50 ;
+$color_22:#dbdbdb ;
+$color_23:#414141 ;
+$color_24:#009688 ;
+$color_25: #98c6e9;
+$color_26: #ececec;
+$color_27: #d6ecfe;
+
+
+// FONT VARIABLES
+$font-primary: 'Roboto', sans-serif;
+$font_1: 'Righteous', cursive;
+$font_2: Roboto;
+$font_3: 'Righteous';
+
+body {
+    margin:0;
+    padding:0;
+    font-family: $font-primary;
+}
